@@ -1,0 +1,45 @@
+{
+    "name": "yogatastic",
+    "version": "1.0.0",
+    "description": "Hugo + NetlifyCMS + Typescript project for website",
+    "main": "dist/index.js",
+    "source": "src/index.ts",
+    "scripts": {
+        "start": "run-p start:**",
+        "start:hugo": "hugo server -D -d ../dist -vw",
+        "start:webpack": "webpack-dev-server --config webpack.dev.js --hot",
+        "preview": "run-p preview:**",
+        "preview:hugo": "npm run start:hugo -- -D -F",
+        "preview:webpack": "npm run start:webpack",
+        "build": "run-p build:**",
+        "build:hugo": "hugo -d ../dist -v",
+        "build:micro": "microbundle"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/realparmesan/yogatastic.git"
+    },
+    "author": "Chris Chester",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/realparmesan/yogatastic/issues"
+    },
+    "homepage": "https://github.com/realparmesan/yogatastic#readme",
+    "devDependencies": {
+        "@types/lodash": "4.14.149",
+        "assets-webpack-plugin": "3.9.10",
+        "clean-webpack-plugin": "3.0.0",
+        "copy-webpack-plugin": "5.1.1",
+        "html-webpack-plugin": "3.2.0",
+        "hugo-bin": "^0.51.2",
+        "lodash": "4.17.15",
+        "mini-css-extract-plugin": "0.9.0",
+        "npm-run-all": "^4.1.5",
+        "ts-loader": "^6.2.1",
+        "typescript": "^3.7.5",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.10.2",
+        "webpack-merge": "^4.2.2"
+    }
+}
