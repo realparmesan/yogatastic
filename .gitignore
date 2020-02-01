@@ -104,4 +104,4 @@ dist
 .tern-port
 
 # Hugo
-site/data/webpack.json
+data/webpack.json

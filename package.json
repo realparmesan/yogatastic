@@ -1,19 +1,21 @@
 {
     "name": "yogatastic",
     "version": "1.0.0",
-    "description": "Hugo + NetlifyCMS + Typescript project for website",
-    "main": "dist/index.js",
+    "description": "Hugo + Typescript project for website",
+    "main": "dist/main.js",
     "source": "src/index.ts",
     "scripts": {
         "start": "run-p start:**",
-        "start:hugo": "hugo server -D -d ../dist -vw",
+        "start:hugo": "hugo -d ./dist -vw",
         "start:webpack": "webpack-dev-server --config webpack.dev.js --hot",
         "preview": "run-p preview:**",
         "preview:hugo": "npm run start:hugo -- -D -F",
         "preview:webpack": "npm run start:webpack",
-        "build": "run-p build:**",
-        "build:hugo": "hugo -d ../dist -v",
-        "build:micro": "microbundle"
+        "build": "npm run build:webpack && npm run build:hugo",
+        "build:preview": "npm run build:webpack && npm run build:hugo:preview",
+        "build:hugo": "hugo -d ../dist -s site -v",
+        "build:hugo:preview": "npm run build:hugo -- -D -F",
+        "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
     },
     "repository": {
         "type": "git",
@@ -35,11 +37,13 @@
         "lodash": "4.17.15",
         "mini-css-extract-plugin": "0.9.0",
         "npm-run-all": "^4.1.5",
+        "source-map-loader": "0.2.4",
         "ts-loader": "^6.2.1",
         "typescript": "^3.7.5",
         "webpack": "^4.41.5",
         "webpack-cli": "^3.3.10",
         "webpack-dev-server": "^3.10.2",
-        "webpack-merge": "^4.2.2"
+        "webpack-merge": "^4.2.2",
+        "write-file-webpack-plugin": "4.5.1"
     }
 }
