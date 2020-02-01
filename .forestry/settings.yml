@@ -1,21 +1,21 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: "/dist/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: site/content
+  path: content
   label: Pages
   create: all
   match: "*"
 - type: directory
-  path: site/content/contact
+  path: content/contact
   label: Contact
   create: all
   match: "**/*"
 - type: directory
-  path: site/content/post
+  path: content/post
   label: Post
   create: all
   match: "**/*"
