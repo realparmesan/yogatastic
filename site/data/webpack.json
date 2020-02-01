@@ -1,0 +1,9 @@
+{
+  "main": {
+    "js": "./dist/main.js"
+  },
+  "": {
+    "": "./dist/fonts/.keep",
+    "json": "./dist/3eb491fa81c9a8255df5.hot-update.json"
+  }
+}
