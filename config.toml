@@ -12,11 +12,6 @@ blog = "/blog/:year/:month/:day/:filename/"
 identifier = "contact"
 name = "Contact"
 url = "/contact/"
-weight = 4
-[[menu.main]]
-identifier = "faq"
-name = "FAQ"
-url = "/faq/"
 weight = 3
 [[menu.main]]
 identifier = "blog"
