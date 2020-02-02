@@ -58,7 +58,7 @@ module.exports = {
         ]),
         new HtmlWebpackPlugin({
           filename: 'admin/index.html',
-          template: 'site/static/admin/index.html',
+          template: 'static/admin/index.html',
           inject: false,
         }),
     ]
