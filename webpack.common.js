@@ -56,10 +56,10 @@ module.exports = {
                 flatten: true
             }
         ]),
-        // new HtmlWebpackPlugin({
-        //   filename: 'admin/index.html',
-        //   template: 'src/cms.html',
-        //   inject: false,
-        // }),
+        new HtmlWebpackPlugin({
+          filename: 'admin/index.html',
+          template: 'site/static/admin/index.html',
+          inject: false,
+        }),
     ]
 };
