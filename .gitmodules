@@ -1,6 +1,6 @@
 [submodule "themes/universal"]
 	path = themes/universal
 	url = https://github.com/devcows/hugo-universal-theme.git
-[submodule "themes/yuki"]
-	path = themes/yuki
+[submodule "themes/hugo-theme-yuki"]
+	path = themes/hugo-theme-yuki
 	url = https://github.com/iCyris/hugo-theme-yuki
