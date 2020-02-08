@@ -1,18 +1,14 @@
 +++
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Sonia"
-date = 2014-04-09T00:00:00Z
+date = 2014-04-08T12:00:00Z
 title = "About"
 
 +++
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+# Hello!
 
-It makes use of a variety of open source projects including:
+This is the draft website for Sonia,
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Check these sweet rings
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+![moon ring](/dist/images/710x528_1194408_1151938_1510743897.jpg "Moon Ring")
