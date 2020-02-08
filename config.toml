@@ -1,8 +1,8 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Hugo Theme Yuki"
+title = "Sonia Yoga Time"
 theme = "hugo-theme-yuki"
-author = "Cyris"
+author = "Chris"
 
 # Copyright notice. This will display on the footer.
 copyright = ""
@@ -15,9 +15,9 @@ paginate = 10
   mainSections = ["post"]
 
   # The information will display on the post pages.
-  author = "Author"
-  description = "Short description"
-  authorwebsite = "https://example.com/"
+  author = "Sonia"
+  description = "Something legit"
+  authorwebsite = ""
 
   # The path to your images
   favicon = "images/logo.png"
