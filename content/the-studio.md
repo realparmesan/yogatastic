@@ -10,4 +10,4 @@ title = "The Studio"
 
 The studio is a sweet little place, ya know?
 
-![](/dist/images/henrique-junior-q9Piu-GqG6E-unsplash.jpg)
+![](/images/henrique-junior-q9Piu-GqG6E-unsplash.png)
