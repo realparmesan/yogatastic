@@ -14,3 +14,10 @@ fields:
 - type: text
   name: author
   label: author
+- name: main_content
+  type: blocks
+  label: Main Content
+  template_types: []
+  config:
+    min: 
+    max: 
