@@ -2,7 +2,6 @@
 aliases = []
 author = "Chris"
 date = 2020-02-07T11:00:00Z
-draft = true
 main_content = []
 title = "The Studio"
 
