@@ -25,15 +25,7 @@ name = "HOME"
 url = "/"
 weight = 1
 [[menu.social]]
-name = "Example-3"
-url = "/"
-weight = 3
-[[menu.social]]
-name = "Example-2"
-url = "/"
-weight = 2
-[[menu.social]]
-name = "Example-1"
+name = "Facebook Page"
 url = "/"
 weight = 1
 [params]
