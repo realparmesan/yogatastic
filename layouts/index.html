@@ -1,5 +1,8 @@
 {{ partial "header.html" . }}
-<script src="./main.js"></script>
+{{ $script := .Site.Data.webpack.main }}
+{{ with $script.js }}
+  <script src="{{ relURL . }}"></script>
+{{ end }}
 <!-- Display image -->
 <div class="index-displayImg" style="background-image: url('{{ .Site.Params.displayImg | absURL }}')"></div>
 
