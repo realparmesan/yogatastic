@@ -12,7 +12,6 @@ module.exports = merge(common, {
   output: {
     filename: "[name].js",
     chunkFilename: "[id].css",
-    publicPath: "./dist"
   },
 
   devServer: {
