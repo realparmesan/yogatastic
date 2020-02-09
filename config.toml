@@ -1,71 +1,49 @@
-baseurl = "/"
-languageCode = "en-us"
-title = "Sonia Yoga Time"
-theme = "hugo-theme-yuki"
 author = "Chris"
-
-# Copyright notice. This will display on the footer.
+baseurl = "/"
 copyright = ""
+languageCode = "en-us"
 paginate = 10
-
-# Theme config
+theme = "hugo-theme-yuki"
+title = "Sonia Yoga Time"
+[[menu.main]]
+name = "About Hugo"
+weight = 1
+[[menu.nav]]
+name = "TAGS"
+url = "/tags/"
+weight = 5
+[[menu.nav]]
+name = "ABOUT"
+url = "/about"
+weight = 4
+[[menu.nav]]
+name = "BLOG"
+url = "/post"
+weight = 2
+[[menu.nav]]
+name = "HOME"
+url = "/"
+weight = 1
+[[menu.social]]
+name = "Example-3"
+url = "/"
+weight = 3
+[[menu.social]]
+name = "Example-2"
+url = "/"
+weight = 2
+[[menu.social]]
+name = "Example-1"
+url = "/"
+weight = 1
 [params]
-
-  # The content you want to be listed on list pages.
-  mainSections = ["post"]
-
-  # The information will display on the post pages.
-  author = "Sonia"
-  description = "Something legit"
-  authorwebsite = ""
-
-  # The path to your images
-  favicon = "images/logo.png"
-  logo = "images/logo.png"
-  avatar = ""
-  displayImg = "images/display.png"
-
-  # This will display on the index page
-  snsTitle = "Social"
-
-  # Google Analytics API key.
-  ga_api_key = "Your Google Analytics tracking id"
-
-# Navbar config
-[[menu.nav]]
-    name = "HOME"
-    url = "/"
-    weight = 1
-
-[[menu.nav]]
-    name = "BLOG"
-    url = "/post"
-    weight = 2
-
-[[menu.nav]]
-    name = "ABOUT"
-    url = "/about"
-    weight = 3
-
-[[menu.nav]]
-    name = "TAGS"
-    url = "/tags/"
-    weight = 4
-
-# Social accounts config (This will display on the index page)
-[[menu.social]]
-    name = "Example-1"
-    url = "/"
-    weight = 1
-
-[[menu.social]]
-    name = "Example-2"
-    url = "/"
-    weight = 2
-
-[[menu.social]]
-    name = "Example-3"
-    url = "/"
-    weight = 3
-
-
+author = "Sonia"
+authorwebsite = ""
+avatar = ""
+description = "Something legit"
+displayImg = "images/display.png"
+favicon = "images/logo.png"
+ga_api_key = "Your Google Analytics tracking id"
+logo = "images/logo.png"
+mainSections = ["post"]
+snsTitle = "Social"
