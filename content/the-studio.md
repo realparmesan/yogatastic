@@ -11,6 +11,6 @@ weight = 3
 +++
 # About the Studio
 
-The studio is a sweet little place, ya know?
+The studio is a sweet little place, ya kn1212ow?
 
 ![](/images/henrique-junior-q9Piu-GqG6E-unsplash.png)
